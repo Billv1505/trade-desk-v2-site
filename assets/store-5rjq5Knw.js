@@ -1,0 +1,1 @@
+var e=class{listeners=new Set;subscribe(e){return this.listeners.add(e),()=>{this.listeners.delete(e)}}emit(e){this.listeners.forEach(t=>t(e))}};export{e as t};

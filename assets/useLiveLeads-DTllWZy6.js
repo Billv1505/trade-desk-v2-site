@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-WkwZ5CU-.js";import{r as t}from"./react-DctBZRDK.js";import{x as n}from"./index-CGTPMq9u.js";var r=e(t(),1);function i(e){let t=n();(0,r.useEffect)(()=>{if(t.watchNewLeads)return t.watchNewLeads(t=>{let n=t.source||`intake link`;e(`New lead: ${t.client_name||`Unknown caller`} via ${n}`,`info`)})},[t,e])}export{i as t};
